@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "populer_names",
+  "info": {
+    "singularName": "populer-name",
+    "pluralName": "populer-names",
+    "displayName": "populerNews",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "docLink": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "string"
+    }
+  }
+}

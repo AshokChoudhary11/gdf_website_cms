@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "populer_posts",
+  "info": {
+    "singularName": "populer-post",
+    "pluralName": "populer-posts",
+    "displayName": "PopulerPost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "SortOrder": {
+      "type": "string"
+    }
+  }
+}

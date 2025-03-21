@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_newsletter_data_newsletter_data",
+  "info": {
+    "displayName": "NewsletterData"
+  },
+  "options": {},
+  "attributes": {
+    "dataId": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "pdfSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
